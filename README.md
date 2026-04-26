@@ -8,7 +8,10 @@
 
 Prediccion del **% de Silice en el concentrado de hierro** durante el proceso de flotacion industrial, usando datos de sensores de planta en tiempo real. Se comparan cuatro enfoques: Regresion Lineal, Decision Tree, Random Forest y una Red Neuronal Artificial (ANN).
 
-Este proyecto documenta explicitamente los errores de **data leakage** presentes en la mayoria de implementaciones publicas de este dataset, corrige el pipeline y reporta metricas honestas.
+**IMPORTANTE**:
+* En este proyecto se abordó el dataset ignorando la naturaleza temporal de los datos, esto con el objetivo principal de experimentar con modelos de ML y ANN densa como aproximación inicial y ver su performance.
+* Este proyecto documenta explicitamente los errores de **data leakage** presentes en la mayoria de implementaciones publicas de este dataset, corrige el pipeline y reporta metricas honestas.
+* Finalmente se recomienda abordar estos datos mediante LSTM, ya que ignorar la naturaleza cronológica de este dataset produce resultados engañosos (mi próximo paso será abordarlo con modelos de series temporales).
 
 ---
 
